@@ -1,0 +1,32 @@
+{
+  "playabilityStatus": { "status": "OK" },
+  "videoDetails": {
+    "videoId": "dQw4w9WgXcQ", "title": "Test Video", "lengthSeconds": "212", "channelId": "UCabc123",
+    "shortDescription": "A description.", "viewCount": "987654", "author": "Some Channel", "isLive": false,
+    "thumbnail": { "thumbnails": [
+      { "url": "https://i.ytimg.com/vi/dQw4w9WgXcQ/default.jpg", "width": 120, "height": 90 },
+      { "url": "https://i.ytimg.com/vi/dQw4w9WgXcQ/maxresdefault.jpg", "width": 1280, "height": 720 } ] }
+  },
+  "microformat": { "playerMicroformatRenderer": { "publishDate": "2009-10-25" } },
+  "streamingData": {
+    "expiresInSeconds": "21540",
+    "hlsManifestUrl": "https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1/file/index.m3u8",
+    "formats": [
+      { "itag": 18, "url": "https://rr1.googlevideo.com/videoplayback?itag=18&expire=1", "mimeType": "video/mp4; codecs=\"avc1.42001E, mp4a.40.2\"", "width": 640, "height": 360, "bitrate": 500000, "fps": 30 },
+      { "itag": 22, "signatureCipher": "s=abc&sp=sig&url=https%3A%2F%2Frr1.googlevideo.com%2Fvideoplayback", "mimeType": "video/mp4; codecs=\"avc1.64001F, mp4a.40.2\"", "width": 1280, "height": 720, "bitrate": 900000 }
+    ],
+    "adaptiveFormats": [
+      { "itag": 137, "url": "https://rr1.googlevideo.com/videoplayback?itag=137", "mimeType": "video/mp4; codecs=\"avc1.640028\"", "width": 1920, "height": 1080, "bitrate": 4000000, "fps": 30 },
+      { "itag": 248, "url": "https://rr1.googlevideo.com/videoplayback?itag=248", "mimeType": "video/webm; codecs=\"vp9\"", "width": 1920, "height": 1080, "bitrate": 2500000 },
+      { "itag": 140, "url": "https://rr1.googlevideo.com/videoplayback?itag=140", "mimeType": "audio/mp4; codecs=\"mp4a.40.2\"", "bitrate": 130000, "audioTrack": { "audioIsDefault": true } },
+      { "itag": 251, "url": "https://rr1.googlevideo.com/videoplayback?itag=251", "mimeType": "audio/webm; codecs=\"opus\"", "bitrate": 140000 }
+    ]
+  },
+  "captions": { "playerCaptionsTracklistRenderer": {
+    "captionTracks": [
+      { "baseUrl": "https://www.youtube.com/api/timedtext?v=dQw4w9WgXcQ&lang=en", "name": { "simpleText": "English" }, "languageCode": "en", "kind": "" },
+      { "baseUrl": "https://www.youtube.com/api/timedtext?v=dQw4w9WgXcQ&lang=en&kind=asr", "name": { "runs": [ { "text": "English (auto-generated)" } ] }, "languageCode": "en", "kind": "asr" }
+    ],
+    "translationLanguages": [ { "languageCode": "fr", "languageName": { "simpleText": "French" } }, { "languageCode": "de", "languageName": { "simpleText": "German" } } ]
+  } }
+}

@@ -1,0 +1,16 @@
+WEBVTT
+Kind: captions
+
+00:00:01.000 --> 00:00:03.500 align:start position:0%
+Hello <c.yellow>world</c> &amp; friends
+
+2
+00:00:04.000 --> 00:00:06.000
+Second line
+with break
+
+01:00:00.000 --> 01:00:02.000
+Late cue
+
+00:00:09.000 --> 00:00:08.000
+Invalid (end before start)

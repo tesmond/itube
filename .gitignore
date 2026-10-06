@@ -60,3 +60,10 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+
+# XcodeGen output (regenerate with `xcodegen`)
+*.xcodeproj
+*.xcworkspace
+.swiftpm/
+DerivedData/
+.DS_Store

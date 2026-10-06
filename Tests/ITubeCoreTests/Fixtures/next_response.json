@@ -1,0 +1,10 @@
+{ "contents": { "twoColumnWatchNextResults": {
+  "results": { "results": { "contents": [ { "videoPrimaryInfoRenderer": { "title": { "runs": [ { "text": "Test Video" } ] } } } ] } },
+  "secondaryResults": { "secondaryResults": { "results": [
+    { "compactVideoRenderer": { "videoId": "dQw4w9WgXcQ", "title": { "simpleText": "Current video must be excluded" } } },
+    { "compactVideoRenderer": { "videoId": "REL00000001", "title": { "simpleText": "Related one" }, "lengthText": { "simpleText": "4:00" },
+        "longBylineText": { "runs": [ { "text": "Rel Channel", "navigationEndpoint": { "browseEndpoint": { "browseId": "UCrel0001" } } } ] },
+        "viewCountText": { "simpleText": "5,000 views" }, "thumbnail": { "thumbnails": [ { "url": "https://i.ytimg.com/vi/REL00000001/hq.jpg", "width": 168, "height": 94 } ] } } },
+    { "compactPromotedVideoRenderer": { "videoId": "ADV00000001", "title": { "simpleText": "Promoted" } } },
+    { "compactVideoRenderer": { "videoId": "REL00000002", "title": { "simpleText": "Related two" } } }
+  ] } } } } }

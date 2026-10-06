@@ -1,0 +1,2 @@
+{ "playabilityStatus": { "status": "OK" }, "videoDetails": { "videoId": "ZZZZZZZZZZZ", "title": "Different" },
+  "streamingData": { "formats": [ { "itag": 18, "url": "https://rr1.googlevideo.com/x", "mimeType": "video/mp4; codecs=\"avc1.42001E, mp4a.40.2\"", "width": 640, "height": 360 } ] } }

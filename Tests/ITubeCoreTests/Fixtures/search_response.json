@@ -1,0 +1,34 @@
+{
+  "contents": { "twoColumnSearchResultsRenderer": { "primaryContents": { "sectionListRenderer": { "contents": [
+    { "itemSectionRenderer": { "contents": [
+      { "adSlotRenderer": { "fulfillmentContent": { "fulfilledLayout": { "videoRenderer": {
+          "videoId": "AAAAAAAAAAA", "title": { "runs": [ { "text": "PROMOTED VIDEO" } ] } } } } } },
+      { "videoRenderer": {
+          "videoId": "dQw4w9WgXcQ",
+          "title": { "runs": [ { "text": "First " }, { "text": "result" } ] },
+          "lengthText": { "simpleText": "3:32" },
+          "viewCountText": { "simpleText": "1,234,567 views" },
+          "publishedTimeText": { "simpleText": "2 years ago" },
+          "ownerText": { "runs": [ { "text": "Some Channel", "navigationEndpoint": { "browseEndpoint": { "browseId": "UCabc123" } } } ] },
+          "thumbnail": { "thumbnails": [
+            { "url": "//i.ytimg.com/vi/dQw4w9WgXcQ/hq720.jpg", "width": 360, "height": 202 },
+            { "url": "http://i.ytimg.com/vi/dQw4w9WgXcQ/maxres.jpg", "width": 720, "height": 404 } ] } } },
+      { "videoRenderer": {
+          "videoId": "9bZkp7q19f0",
+          "title": { "simpleText": "Second result" },
+          "lengthText": { "simpleText": "1:02:03" },
+          "shortViewCountText": { "simpleText": "1.2M views" },
+          "longBylineText": { "runs": [ { "text": "Other", "navigationEndpoint": { "browseEndpoint": { "browseId": "UCdef456" } } } ] },
+          "thumbnail": { "thumbnails": [ { "url": "https://i.ytimg.com/vi/9bZkp7q19f0/hq720.jpg", "width": 360, "height": 202 } ] } } },
+      { "videoRenderer": { "videoId": "bad id", "title": { "simpleText": "Malformed id is dropped" } } },
+      { "channelRenderer": {
+          "channelId": "UCchan0001", "title": { "simpleText": "A Channel" },
+          "subscriberCountText": { "simpleText": "1.5M subscribers" },
+          "thumbnail": { "thumbnails": [ { "url": "//yt3.ggpht.com/avatar=s88", "width": 88, "height": 88 } ] } } },
+      { "playlistRenderer": {
+          "playlistId": "PLabcdefghij", "title": { "simpleText": "A Playlist" }, "videoCount": "42",
+          "thumbnails": [ { "thumbnails": [ { "url": "https://i.ytimg.com/vi/xyz/hq.jpg", "width": 480, "height": 270 } ] } ] } }
+    ] } },
+    { "continuationItemRenderer": { "continuationEndpoint": { "continuationCommand": { "token": "CONT_TOKEN_1" } } } }
+  ] } } } }
+}

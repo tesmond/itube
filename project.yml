@@ -1,0 +1,60 @@
+name: iTube
+options:
+  bundleIdPrefix: com.tesmond
+  deploymentTarget:
+    iOS: "18.0"
+  createIntermediateGroups: true
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    SWIFT_STRICT_CONCURRENCY: complete
+    SWIFT_APPROACHABLE_CONCURRENCY: NO
+    SWIFT_DEFAULT_ACTOR_ISOLATION: nonisolated
+    TARGETED_DEVICE_FAMILY: "1"
+    IPHONEOS_DEPLOYMENT_TARGET: "18.0"
+    ENABLE_USER_SCRIPT_SANDBOXING: YES
+packages:
+  ITubeCore:
+    path: .
+targets:
+  iTube:
+    type: application
+    platform: iOS
+    sources:
+      - App
+      - Features
+    dependencies:
+      - package: ITubeCore
+        product: ITubeCore
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.tesmond.itube
+        PRODUCT_NAME: itube
+        MARKETING_VERSION: "0.1.0"
+        CURRENT_PROJECT_VERSION: "1"
+        GENERATE_INFOPLIST_FILE: NO
+        INFOPLIST_FILE: App/Info.plist
+        CODE_SIGN_ENTITLEMENTS: ""
+        # Build with `-D APPSTORE` (OTHER_SWIFT_FLAGS) to exclude the YouTube provider (ADR §27).
+      configs:
+        Release:
+          SWIFT_COMPILATION_MODE: wholemodule
+  iTubeUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources:
+      - UITests
+    dependencies:
+      - target: iTube
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.tesmond.itube.uitests
+        GENERATE_INFOPLIST_FILE: YES
+schemes:
+  iTube:
+    build:
+      targets:
+        iTube: all
+    test:
+      targets:
+        - iTubeUITests
